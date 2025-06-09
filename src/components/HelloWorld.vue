@@ -1,7 +1,20 @@
 <script setup lang="ts">
-// import { ref } from 'vue'
+import { onMounted } from 'vue'
 
 defineProps<{ msg: string }>()
+
+onMounted(() =>{
+    const tg = (window as any).Telegram.WebApp;
+    
+    if (!tg) {
+      alert("請從 Telegram Bot 開啟此網站");
+      return;
+    }
+
+    tg.expand(); // 全螢幕
+    tg.showAlert("Hello from Telegram Mini App");
+  }
+)
 
 </script>
 
