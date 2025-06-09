@@ -1,21 +1,21 @@
 <template>
   <h1>{{ msg }}</h1>
-  <div>
-    <div>
-      <!-- <div>userId</div> -->
-      <div>{{ userId }}</div>
+  <div class="mt-20">
+    <div class="flex">
+      <div class="flex-1">userId</div>
+      <div class="flex-1">{{ userId }}</div>
     </div>
-    <div>
-      <!-- <div>userFirstName</div> -->
-      <div>{{ userFirstName }}</div>
+    <div class="flex">
+      <div class="flex-1">userFirstName</div>
+      <div class="flex-1">{{ userFirstName }}</div>
     </div>
-    <div>
-      <!-- <div>userLastName</div> -->
-      <div>{{ userLastName }}</div>
+    <div class="flex">
+      <div class="flex-1">userLastName</div>
+      <div class="flex-1">{{ userLastName }}</div>
     </div>
-    <div>
-      <!-- <div>languageCode</div> -->
-      <div>{{ languageCode }}</div>
+    <div class="flex">
+      <div class="flex-1">languageCode</div>
+      <div class="flex-1">{{ languageCode }}</div>
     </div>
   </div>
 </template>
