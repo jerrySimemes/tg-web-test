@@ -3,19 +3,19 @@
   <div class="mt-20">
     <div class="flex">
       <div class="flex-1">userId</div>
-      <div class="flex-1">{{ userId }}</div>
+      <div class="flex-1">{{ userId || 'none' }}</div>
     </div>
     <div class="flex">
       <div class="flex-1">userFirstName</div>
-      <div class="flex-1">{{ userFirstName }}</div>
+      <div class="flex-1">{{ userFirstName || 'none' }}</div>
     </div>
     <div class="flex">
       <div class="flex-1">userLastName</div>
-      <div class="flex-1">{{ userLastName }}</div>
+      <div class="flex-1">{{ userLastName || 'none' }}</div>
     </div>
     <div class="flex">
       <div class="flex-1">languageCode</div>
-      <div class="flex-1">{{ languageCode }}</div>
+      <div class="flex-1">{{ languageCode || 'none' }}</div>
     </div>
   </div>
 </template>

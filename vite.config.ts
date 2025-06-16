@@ -16,7 +16,7 @@ export default defineConfig({
   base: './',
   server: {
     host: '127.0.0.1',
-    allowedHosts: ['895d-122-116-28-91.ngrok-free.app'],
+    allowedHosts: ['2635-203-121-229-38.ngrok-free.app'],
     // port: 3000,
     open: true // 啟動後自動開瀏覽器
   }
